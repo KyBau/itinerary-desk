@@ -1,0 +1,22 @@
+# Render Blueprint: free web service. NOT deployed.
+services:
+  - type: web
+    name: itinerary-desk-mcp
+    runtime: python
+    plan: free
+    buildCommand: "echo no dependencies"
+    startCommand: "python3 server.py --http"
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DUFFEL_ACCESS_TOKEN
+        sync: false            # set in dashboard; MUST start with duffel_test_. Unset = fixture mode.
+      - key: ITINERARY_CONFIRM_SECRET
+        generateValue: true    # stable HMAC key for confirm tokens across restarts
+      - key: ITINERARY_API_KEY
+        sync: false            # set in dashboard; long random string. Clients send Bearer/X-API-Key or /mcp?key=
+      - key: ITINERARY_ALLOWED_ORIGINS
+        value: https://claude.ai,https://claude.com,https://grok.com,https://muse.ai

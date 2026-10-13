@@ -1,0 +1,2678 @@
+{
+ "run": "acafd2eb",
+ "mode": "duffel_test",
+ "date": "2026-10-13 02:20:04.544095",
+ "calls": [
+  {
+   "tool": "search_flights",
+   "arguments": {
+    "origin": "LHR",
+    "destination": "JFK",
+    "departure_date": "2026-11-12",
+    "limit": 20
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "offer_request_id": "orq_0000BBMVFNcHzsda0tceNY",
+    "count": 59,
+    "offers": [
+     {
+      "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+      "airline": "Duffel Airways",
+      "total_amount": "218.19",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:56.997328Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-12T08:30:00",
+          "arrives": "2026-11-12T11:28:00",
+          "flight": "ZZ4029"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFNp3EQqUeTaqGb",
+      "airline": "British Airways",
+      "total_amount": "225.42",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:56.999637Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFNp3EQqUeTaqGZ",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-12T08:30:00",
+          "arrives": "2026-11-12T11:28:00",
+          "flight": "BA0109"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFNpPD784fZl7oq",
+      "airline": "American Airlines",
+      "total_amount": "226.30",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000961Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFNpPD784fZl7op",
+        "fare_brand": "Basic Economy",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-12T08:30:00",
+          "arrives": "2026-11-12T11:28:00",
+          "flight": "AA10"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFNp3EQqUeTaqGa",
+      "airline": "Iberia",
+      "total_amount": "231.56",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:56.999454Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFNp3EQqUeTaqGY",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-12T08:30:00",
+          "arrives": "2026-11-12T11:28:00",
+          "flight": "IB3179"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSPiA4XytKmAz6",
+      "airline": "Lufthansa",
+      "total_amount": "919.68",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSPiA4XytKmAyt",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-12T09:00:00",
+          "arrives": "2026-11-12T11:55:00",
+          "flight": "LX0317"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-12T13:15:00",
+          "arrives": "2026-11-12T16:40:00",
+          "flight": "LX0014"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSX9iOVBGQG7aa",
+      "airline": "Lufthansa",
+      "total_amount": "919.68",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSX9iOVBGQG7aP",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-12T06:00:00",
+          "arrives": "2026-11-12T08:40:00",
+          "flight": "LX0345"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-12T09:50:00",
+          "arrives": "2026-11-12T13:05:00",
+          "flight": "LX0016"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSWRl1w1EDvYT3",
+      "airline": "Lufthansa",
+      "total_amount": "924.31",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSWRl1w1EDvYSt",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "VIE",
+          "departs": "2026-11-12T06:00:00",
+          "arrives": "2026-11-12T09:10:00",
+          "flight": "OS0340"
+         },
+         {
+          "from": "VIE",
+          "to": "JFK",
+          "departs": "2026-11-12T10:50:00",
+          "arrives": "2026-11-12T14:15:00",
+          "flight": "OS0035"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSQm67OiwdH1dL",
+      "airline": "Lufthansa",
+      "total_amount": "926.69",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSQm67OiwdH1d9",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-12T08:45:00",
+          "arrives": "2026-11-12T11:35:00",
+          "flight": "LH4193"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-12T12:45:00",
+          "arrives": "2026-11-12T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSRq2AFSzvlsIH",
+      "airline": "Lufthansa",
+      "total_amount": "926.69",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSRq2AFSzvlsI6",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-12T07:40:00",
+          "arrives": "2026-11-12T10:30:00",
+          "flight": "LH4205"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-12T12:45:00",
+          "arrives": "2026-11-12T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSUJswEX7cvr9t",
+      "airline": "Lufthansa",
+      "total_amount": "929.07",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSUJswEX7cvr9i",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "BRU",
+          "departs": "2026-11-12T06:50:00",
+          "arrives": "2026-11-12T08:55:00",
+          "flight": "SN2104"
+         },
+         {
+          "from": "BRU",
+          "to": "JFK",
+          "departs": "2026-11-12T10:35:00",
+          "arrives": "2026-11-12T13:20:00",
+          "flight": "SN0501"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSTbvZfN5QbI2n",
+      "airline": "Lufthansa",
+      "total_amount": "935.55",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSTbvZfN5QbI2f",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "GVA",
+          "departs": "2026-11-12T07:00:00",
+          "arrives": "2026-11-12T09:40:00",
+          "flight": "LX0359"
+         },
+         {
+          "from": "GVA",
+          "to": "JFK",
+          "departs": "2026-11-12T11:40:00",
+          "arrives": "2026-11-12T14:40:00",
+          "flight": "LX0022"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSNwGf84npwlDr",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSNwGf84npwlDg",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-12T13:30:00",
+          "arrives": "2026-11-12T16:05:00",
+          "flight": "LH4229"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-12T17:15:00",
+          "arrives": "2026-11-12T20:10:00",
+          "flight": "LH0404"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSP0Chyor8Rbrf",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSP0Chyor8RbrV",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-12T11:30:00",
+          "arrives": "2026-11-12T14:05:00",
+          "flight": "LH4227"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-12T17:15:00",
+          "arrives": "2026-11-12T20:10:00",
+          "flight": "LH0404"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSStyD6D3EGiwS",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSStyD6D3EGiwQ",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-12T07:30:00",
+          "arrives": "2026-11-12T10:05:00",
+          "flight": "LH0923"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-12T11:00:00",
+          "arrives": "2026-11-12T13:35:00",
+          "flight": "LH0400"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSVNoz5HAvQho0",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSVNoz5HAvQhnu",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-12T06:30:00",
+          "arrives": "2026-11-12T09:05:00",
+          "flight": "LH4233"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-12T11:00:00",
+          "arrives": "2026-11-12T13:35:00",
+          "flight": "LH0400"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSPiA4XytKmAy5",
+      "airline": "Lufthansa",
+      "total_amount": "1040.00",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSPiA4XytKmAxu",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-12T09:00:00",
+          "arrives": "2026-11-12T11:55:00",
+          "flight": "LX0317"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-12T13:15:00",
+          "arrives": "2026-11-12T16:40:00",
+          "flight": "LX0014"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSX9iOVBGQG7Zo",
+      "airline": "Lufthansa",
+      "total_amount": "1040.00",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSX9iOVBGQG7Zd",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-12T06:00:00",
+          "arrives": "2026-11-12T08:40:00",
+          "flight": "LX0345"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-12T09:50:00",
+          "arrives": "2026-11-12T13:05:00",
+          "flight": "LX0016"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSW5mLeRD7lGus",
+      "airline": "Lufthansa",
+      "total_amount": "1044.63",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSW5mLeRD7lGul",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "VIE",
+          "departs": "2026-11-12T06:00:00",
+          "arrives": "2026-11-12T09:10:00",
+          "flight": "OS0340"
+         },
+         {
+          "from": "VIE",
+          "to": "JFK",
+          "departs": "2026-11-12T10:50:00",
+          "arrives": "2026-11-12T14:15:00",
+          "flight": "OS0035"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSQm67OiwdH1cY",
+      "airline": "Lufthansa",
+      "total_amount": "1047.01",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSQQ7R78vX6k5Y",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-12T08:45:00",
+          "arrives": "2026-11-12T11:35:00",
+          "flight": "LH4193"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-12T12:45:00",
+          "arrives": "2026-11-12T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFSRq2AFSzvlsHZ",
+      "airline": "Lufthansa",
+      "total_amount": "1047.01",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:49:57.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFSRq2AFSzvlsHK",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-12T07:40:00",
+          "arrives": "2026-11-12T10:30:00",
+          "flight": "LH4205"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-12T12:45:00",
+          "arrives": "2026-11-12T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFNcdyYvA1zmvvX"
+      ]
+     }
+    ],
+    "next": "Call price_check on the chosen offer_id before booking."
+   }
+  },
+  {
+   "tool": "get_offer",
+   "arguments": {
+    "offer_id": "off_0000BBMVFNoLH4HKcHGHA2"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "offer": {
+     "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+     "airline": "Duffel Airways",
+     "total_amount": "218.19",
+     "currency": "USD",
+     "expires_at": "2026-10-13T07:49:56.997328Z",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-12T08:30:00",
+         "arrives": "2026-11-12T11:28:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      }
+     },
+     "hold_available": true,
+     "passenger_ids": [
+      "pas_0000BBMVFNcdyYvA1zmvvX"
+     ]
+    }
+   }
+  },
+  {
+   "tool": "price_check",
+   "arguments": {
+    "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+    "expected_amount": "218.19"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "offer": {
+     "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+     "airline": "Duffel Airways",
+     "total_amount": "218.19",
+     "currency": "USD",
+     "expires_at": "2026-10-13T07:49:56.997328Z",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-12T08:30:00",
+         "arrives": "2026-11-12T11:28:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      }
+     },
+     "hold_available": true,
+     "passenger_ids": [
+      "pas_0000BBMVFNcdyYvA1zmvvX"
+     ]
+    },
+    "price_changed": false,
+    "previous_amount": "218.19",
+    "bookable_as": [
+     "instant",
+     "hold"
+    ],
+    "confirm_tokens": {
+     "instant": "1791876598.94d05b6f28155b3edb61b6c449657940",
+     "hold": "1791876598.8d70b276719d907e8800625051156773"
+    },
+    "confirm_token_ttl_seconds": 600,
+    "instructions": "Show the human: Duffel Airways, 218.19 USD, refund/change rules. Only after they say yes, call book_order with confirm=true."
+   }
+  },
+  {
+   "tool": "book_order",
+   "arguments": {
+    "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+    "amount": "218.19",
+    "currency": "USD",
+    "type": "instant",
+    "passengers": [
+     {
+      "id": "pas_0000BBMVFNcdyYvA1zmvvX",
+      "title": "mr",
+      "given_name": "Tony",
+      "family_name": "Stark",
+      "born_on": "1980-07-24",
+      "gender": "m",
+      "email": "tony@example.com",
+      "phone_number": "+442080160509"
+     }
+    ],
+    "confirm": true,
+    "confirm_token": "1791876598.94d05b6f28155b3edb61b6c449657940",
+    "idempotency_key": "live-inst-acafd2eb"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "booked": true,
+    "order": {
+     "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+     "booking_reference": "GGEZFU",
+     "type": "instant",
+     "live_mode": false,
+     "total_amount": "218.19",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-12T08:30:00",
+         "arrives": "2026-11-12T11:28:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "change",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": false
+    },
+    "note": "Test mode: paid from Duffel test balance; no real ticket or money."
+   }
+  },
+  {
+   "tool": "book_order",
+   "arguments": {
+    "offer_id": "off_0000BBMVFNoLH4HKcHGHA2",
+    "amount": "218.19",
+    "currency": "USD",
+    "type": "instant",
+    "passengers": [
+     {
+      "id": "pas_0000BBMVFNcdyYvA1zmvvX",
+      "title": "mr",
+      "given_name": "Tony",
+      "family_name": "Stark",
+      "born_on": "1980-07-24",
+      "gender": "m",
+      "email": "tony@example.com",
+      "phone_number": "+442080160509"
+     }
+    ],
+    "confirm": true,
+    "confirm_token": "1791876598.94d05b6f28155b3edb61b6c449657940",
+    "idempotency_key": "live-inst-acafd2eb"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "booked": true,
+    "order": {
+     "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+     "booking_reference": "GGEZFU",
+     "type": "instant",
+     "live_mode": false,
+     "total_amount": "218.19",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-12T08:30:00",
+         "arrives": "2026-11-12T11:28:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "change",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": false
+    },
+    "note": "Test mode: paid from Duffel test balance; no real ticket or money.",
+    "idempotent_replay": true
+   }
+  },
+  {
+   "tool": "get_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "order": {
+     "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+     "booking_reference": "GGEZFU",
+     "type": "instant",
+     "live_mode": false,
+     "total_amount": "218.19",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFNoLH4HKcHGHA1",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-12T08:30:00",
+         "arrives": "2026-11-12T11:28:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "change",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": false
+    }
+   }
+  },
+  {
+   "tool": "change_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+    "new_departure_date": "2026-11-14"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "step": "quote",
+    "order_change_request_id": "ocr_0000BBMVFe5NfZpFwmL9VG",
+    "options": [
+     {
+      "change_offer_id": "oco_0000BBMVFe5jeG6pxsVR3l",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5NfZpFwmL9VW",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T06:00:00",
+          "arrives": "2026-11-14T13:58:00",
+          "flight": "ZZ2632"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.27b7aa8cb44df3c7f9a51eaa6dbba26a"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe6Rbcg004q09p",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5NfZpFwmL9VZ",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T06:00:00",
+          "arrives": "2026-11-14T13:58:00",
+          "flight": "ZZ2632"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.1ed25e621b35068f35be48503ba4aece"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe79YzFA2HAZGT",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5NfZpFwmL9Ve",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T06:00:00",
+          "arrives": "2026-11-14T13:58:00",
+          "flight": "ZZ2632"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.0a64ccd469cb7c3c9420cc12795abd9f"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe7rWLoK4TV8Mq",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3I",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T12:00:00",
+          "arrives": "2026-11-14T19:58:00",
+          "flight": "ZZ3634"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.60c183548e5747de7c43ae92db2e2d60"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe8DV25u5ZfPvR",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3N",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T12:00:00",
+          "arrives": "2026-11-14T19:58:00",
+          "flight": "ZZ3634"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.fa9b8b3401224f3dadbca2b5217bf4fd"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe8vSOf47lzz1r",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3R",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T12:00:00",
+          "arrives": "2026-11-14T19:58:00",
+          "flight": "ZZ3634"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.24a5e0246ad639f52fb7b5d9446070cc"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe9HR4we8sAGaH",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3V",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T18:00:00",
+          "arrives": "2026-11-15T01:58:00",
+          "flight": "ZZ9423"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.b14d884bf1667ec4c8ecb45e6a8e50d3"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFe9zORVoB4Upgi",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3a",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T18:00:00",
+          "arrives": "2026-11-15T01:58:00",
+          "flight": "ZZ9423"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.561d12b8fe568e69b165491a464ac52d"
+     },
+     {
+      "change_offer_id": "oco_0000BBMVFeAhLo4yDGpOnE",
+      "change_total_amount": "125.00",
+      "penalty_total_amount": "25.00",
+      "new_total_amount": "318.19",
+      "currency": "USD",
+      "expires_at": "2026-10-16T07:19:59Z",
+      "new_slices": [
+       {
+        "slice_id": "sli_0000BBMVFe5jeG6pxsVR3g",
+        "fare_brand": null,
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-14T18:00:00",
+          "arrives": "2026-11-15T01:58:00",
+          "flight": "ZZ9423"
+         }
+        ]
+       }
+      ],
+      "confirm_token": "1791876600.f741071b236bceb033e65c395d5ccd39"
+     }
+    ],
+    "instructions": "Nothing has changed yet. Show options (fare difference + penalty) to the human; on explicit yes call change_order with change_offer_id, change_total_amount, confirm_token, confirm=true, idempotency_key."
+   }
+  },
+  {
+   "tool": "change_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+    "change_offer_id": "oco_0000BBMVFe5jeG6pxsVR3l",
+    "change_total_amount": "125.00",
+    "confirm_token": "1791876600.27b7aa8cb44df3c7f9a51eaa6dbba26a",
+    "confirm": true,
+    "idempotency_key": "live-chg-acafd2eb"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "step": "confirmed",
+    "changed": true,
+    "order_change_id": "oce_0000BBMVFibmr27lyRX5ZL",
+    "charged": "125.00",
+    "currency": "USD",
+    "new_total_amount": "318.19",
+    "confirmed_at": "2026-10-13T07:20:00Z"
+   }
+  },
+  {
+   "tool": "get_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "order": {
+     "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+     "booking_reference": "GGEZFU",
+     "type": "instant",
+     "live_mode": false,
+     "total_amount": "343.19",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFe5NfZpFwmL9VW",
+       "fare_brand": null,
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-14T06:00:00",
+         "arrives": "2026-11-14T13:58:00",
+         "flight": "ZZ2632"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": true,
+       "penalty": "0.00",
+       "currency": "GBP"
+      },
+      "change_before_departure": {
+       "allowed": true,
+       "penalty": "0.00",
+       "currency": "GBP"
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": false
+    }
+   }
+  },
+  {
+   "tool": "cancel_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "step": "quote",
+    "cancellation_id": "ore_0000BBMVFoZsNknCdKtGdp",
+    "refund_amount": "343.19",
+    "refund_currency": "USD",
+    "refund_to": "balance",
+    "expires_at": "2026-10-13T08:20:01Z",
+    "confirm_token": "1791876601.21a39201a5e38515a51d7f781148bc9a",
+    "instructions": "Nothing is cancelled yet. Show the refund to the human; on explicit yes call cancel_order again with cancellation_id, confirm_token, confirm=true, idempotency_key."
+   }
+  },
+  {
+   "tool": "cancel_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+    "cancellation_id": "ore_0000BBMVFoZsNknCdKtGdp",
+    "refund_amount": "343.19",
+    "confirm_token": "1791876601.21a39201a5e38515a51d7f781148bc9a",
+    "confirm": true,
+    "idempotency_key": "live-cxl-acafd2eb"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "step": "confirmed",
+    "cancelled": true,
+    "cancellation_id": "ore_0000BBMVFoZsNknCdKtGdp",
+    "refund_amount": "343.19",
+    "refund_currency": "USD",
+    "confirmed_at": "2026-10-13T07:20:01.866379Z"
+   }
+  },
+  {
+   "tool": "get_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVFaF9xHGs1wsuBg"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "order": {
+     "order_id": "ord_0000BBMVFaF9xHGs1wsuBg",
+     "booking_reference": "GGEZFU",
+     "type": "instant",
+     "live_mode": false,
+     "total_amount": "343.19",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFe5NfZpFwmL9VW",
+       "fare_brand": null,
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-14T06:00:00",
+         "arrives": "2026-11-14T13:58:00",
+         "flight": "ZZ2632"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": true,
+       "penalty": "0.00",
+       "currency": "GBP"
+      },
+      "change_before_departure": {
+       "allowed": true,
+       "penalty": "0.00",
+       "currency": "GBP"
+      }
+     },
+     "available_actions": [
+      "update"
+     ],
+     "cancelled_at": "2026-10-13T07:20:01.866379Z",
+     "awaiting_payment": false
+    }
+   }
+  },
+  {
+   "tool": "search_flights",
+   "arguments": {
+    "origin": "LHR",
+    "destination": "JFK",
+    "departure_date": "2026-11-13",
+    "limit": 20
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "offer_request_id": "orq_0000BBMVFsAr0j9bmtDLCs",
+    "count": 59,
+    "offers": [
+     {
+      "offer_id": "off_0000BBMVFsOKCdvgSfW6Cb",
+      "airline": "British Airways",
+      "total_amount": "215.16",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.346448Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFsOKCdvgSfW6CR",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-13T09:17:00",
+          "arrives": "2026-11-13T12:15:00",
+          "flight": "BA0109"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFsNcFHMWQTBX5r",
+      "airline": "Duffel Airways",
+      "total_amount": "225.12",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.344644Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFsNcFHMWQTBX5b",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-13T09:17:00",
+          "arrives": "2026-11-13T12:15:00",
+          "flight": "ZZ4029"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFsNcFHMWQTBX6L",
+      "airline": "Iberia",
+      "total_amount": "226.73",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.344911Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFsNcFHMWQTBX6A",
+        "fare_brand": "Basic",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-13T09:17:00",
+          "arrives": "2026-11-13T12:15:00",
+          "flight": "IB3179"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFsPO8gmQVy0wrz",
+      "airline": "American Airlines",
+      "total_amount": "227.55",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.349707Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFsPO8gmQVy0wrk",
+        "fare_brand": "Basic Economy",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "JFK",
+          "departs": "2026-11-13T09:17:00",
+          "arrives": "2026-11-13T12:15:00",
+          "flight": "AA10"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "40.00",
+        "currency": "USD"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFypqFFVORkR9va",
+      "airline": "Lufthansa",
+      "total_amount": "919.68",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFypqFFVORkR9vO",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-13T09:00:00",
+          "arrives": "2026-11-13T11:55:00",
+          "flight": "LX0317"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-13T13:15:00",
+          "arrives": "2026-11-13T16:40:00",
+          "flight": "LX0014"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyvrsqKGkRFyJi",
+      "airline": "Lufthansa",
+      "total_amount": "919.68",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyvrsqKGkRFyJd",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-13T06:00:00",
+          "arrives": "2026-11-13T08:40:00",
+          "flight": "LX0345"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-13T09:50:00",
+          "arrives": "2026-11-13T13:05:00",
+          "flight": "LX0016"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyquBIM8V2w0aG",
+      "airline": "Lufthansa",
+      "total_amount": "926.69",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyquBIM8V2w0a5",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-13T08:45:00",
+          "arrives": "2026-11-13T11:35:00",
+          "flight": "LH4193"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-13T12:45:00",
+          "arrives": "2026-11-13T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyry7LCsYLQrF1",
+      "airline": "Lufthansa",
+      "total_amount": "926.69",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyry7LCsYLQrEr",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-13T07:40:00",
+          "arrives": "2026-11-13T10:30:00",
+          "flight": "LH4205"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-13T12:45:00",
+          "arrives": "2026-11-13T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyuRy7Bwg2aq68",
+      "airline": "Lufthansa",
+      "total_amount": "929.07",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyuRy7Bwg2aq64",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "BRU",
+          "departs": "2026-11-13T06:50:00",
+          "arrives": "2026-11-13T08:55:00",
+          "flight": "SN2104"
+         },
+         {
+          "from": "BRU",
+          "to": "JFK",
+          "departs": "2026-11-13T10:35:00",
+          "arrives": "2026-11-13T13:20:00",
+          "flight": "SN0501"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFytk0kcmdqGGzs",
+      "airline": "Lufthansa",
+      "total_amount": "935.55",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFytk0kcmdqGGzl",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "GVA",
+          "departs": "2026-11-13T07:00:00",
+          "arrives": "2026-11-13T09:35:00",
+          "flight": "LX0359"
+         },
+         {
+          "from": "GVA",
+          "to": "JFK",
+          "departs": "2026-11-13T11:40:00",
+          "arrives": "2026-11-13T14:40:00",
+          "flight": "LX0022"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyoQKWN4NLm1hZ",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyo4Lq5UMFbkAY",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-13T13:30:00",
+          "arrives": "2026-11-13T16:05:00",
+          "flight": "LH4229"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-13T17:15:00",
+          "arrives": "2026-11-13T20:10:00",
+          "flight": "LH0404"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyp8HswEPY6aos",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyp8HswEPY6aog",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-13T11:30:00",
+          "arrives": "2026-11-13T14:05:00",
+          "flight": "LH4227"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-13T17:15:00",
+          "arrives": "2026-11-13T20:10:00",
+          "flight": "LH0404"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyt23O3cbdvht2",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyt23O3cbdvhsu",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-13T07:30:00",
+          "arrives": "2026-11-13T10:05:00",
+          "flight": "LH0923"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-13T11:00:00",
+          "arrives": "2026-11-13T13:35:00",
+          "flight": "LH0400"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyv9vTl6iEvPCu",
+      "airline": "Lufthansa",
+      "total_amount": "946.65",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyv9vTl6iEvPCn",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "FRA",
+          "departs": "2026-11-13T06:30:00",
+          "arrives": "2026-11-13T09:05:00",
+          "flight": "LH4233"
+         },
+         {
+          "from": "FRA",
+          "to": "JFK",
+          "departs": "2026-11-13T11:00:00",
+          "arrives": "2026-11-13T13:35:00",
+          "flight": "LH0400"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFynMOTWKK3HB4G",
+      "airline": "Lufthansa",
+      "total_amount": "952.34",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFynMOTWKK3HB47",
+        "fare_brand": "Economy Light",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "GVA",
+          "departs": "2026-11-13T07:00:00",
+          "arrives": "2026-11-13T09:35:00",
+          "flight": "LX0359"
+         },
+         {
+          "from": "GVA",
+          "to": "ZRH",
+          "departs": "2026-11-13T10:35:00",
+          "arrives": "2026-11-13T11:30:00",
+          "flight": "LX2809"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-13T13:15:00",
+          "arrives": "2026-11-13T16:40:00",
+          "flight": "LX0014"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "300",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFypqFFVORkR9uy",
+      "airline": "Lufthansa",
+      "total_amount": "1040.00",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFypqFFVORkR9ul",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-13T09:00:00",
+          "arrives": "2026-11-13T11:55:00",
+          "flight": "LX0317"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-13T13:15:00",
+          "arrives": "2026-11-13T16:40:00",
+          "flight": "LX0014"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyvrsqKGkRFyJ3",
+      "airline": "Lufthansa",
+      "total_amount": "1040.00",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyvVuA2gjL5gm3",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "ZRH",
+          "departs": "2026-11-13T06:00:00",
+          "arrives": "2026-11-13T08:40:00",
+          "flight": "LX0345"
+         },
+         {
+          "from": "ZRH",
+          "to": "JFK",
+          "departs": "2026-11-13T09:50:00",
+          "arrives": "2026-11-13T13:05:00",
+          "flight": "LX0016"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyquBIM8V2w0ZN",
+      "airline": "Lufthansa",
+      "total_amount": "1047.01",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyqYCc4YTwlj2M",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-13T08:45:00",
+          "arrives": "2026-11-13T11:35:00",
+          "flight": "LH4193"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-13T12:45:00",
+          "arrives": "2026-11-13T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyry7LCsYLQrEP",
+      "airline": "Lufthansa",
+      "total_amount": "1047.01",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyry7LCsYLQrEE",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "MUC",
+          "departs": "2026-11-13T07:40:00",
+          "arrives": "2026-11-13T10:30:00",
+          "flight": "LH4205"
+         },
+         {
+          "from": "MUC",
+          "to": "JFK",
+          "departs": "2026-11-13T12:45:00",
+          "arrives": "2026-11-13T15:40:00",
+          "flight": "LH0410"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     },
+     {
+      "offer_id": "off_0000BBMVFyu5zQuMewQYYW",
+      "airline": "Lufthansa",
+      "total_amount": "1049.39",
+      "currency": "USD",
+      "expires_at": "2026-10-13T07:50:02.000000Z",
+      "slices": [
+       {
+        "slice_id": "sli_0000BBMVFyu5zQuMewQYYR",
+        "fare_brand": "Economy Comfort",
+        "segments": [
+         {
+          "from": "LHR",
+          "to": "BRU",
+          "departs": "2026-11-13T06:50:00",
+          "arrives": "2026-11-13T08:55:00",
+          "flight": "SN2104"
+         },
+         {
+          "from": "BRU",
+          "to": "JFK",
+          "departs": "2026-11-13T10:35:00",
+          "arrives": "2026-11-13T13:20:00",
+          "flight": "SN0501"
+         }
+        ]
+       }
+      ],
+      "conditions": {
+       "refund_before_departure": {
+        "allowed": false,
+        "penalty": null,
+        "currency": null
+       },
+       "change_before_departure": {
+        "allowed": true,
+        "penalty": "200",
+        "currency": "GBP"
+       }
+      },
+      "hold_available": true,
+      "passenger_ids": [
+       "pas_0000BBMVFsAr0j9bmtDLDH"
+      ]
+     }
+    ],
+    "next": "Call price_check on the chosen offer_id before booking."
+   }
+  },
+  {
+   "tool": "price_check",
+   "arguments": {
+    "offer_id": "off_0000BBMVFsNcFHMWQTBX5r"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "offer": {
+     "offer_id": "off_0000BBMVFsNcFHMWQTBX5r",
+     "airline": "Duffel Airways",
+     "total_amount": "225.12",
+     "currency": "USD",
+     "expires_at": "2026-10-13T07:50:02.344644Z",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFsNcFHMWQTBX5b",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-13T09:17:00",
+         "arrives": "2026-11-13T12:15:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": true,
+       "penalty": "40.00",
+       "currency": "USD"
+      }
+     },
+     "hold_available": true,
+     "passenger_ids": [
+      "pas_0000BBMVFsAr0j9bmtDLDH"
+     ]
+    },
+    "price_changed": false,
+    "previous_amount": null,
+    "bookable_as": [
+     "instant",
+     "hold"
+    ],
+    "confirm_tokens": {
+     "instant": "1791876603.2c2f185d1e8bcdb37425f0adb76d0a3e",
+     "hold": "1791876603.e4fb21d02c46348498b06454bdd4ff13"
+    },
+    "confirm_token_ttl_seconds": 600,
+    "instructions": "Show the human: Duffel Airways, 225.12 USD, refund/change rules. Only after they say yes, call book_order with confirm=true."
+   }
+  },
+  {
+   "tool": "book_order",
+   "arguments": {
+    "offer_id": "off_0000BBMVFsNcFHMWQTBX5r",
+    "amount": "225.12",
+    "currency": "USD",
+    "type": "hold",
+    "passengers": [
+     {
+      "id": "pas_0000BBMVFsAr0j9bmtDLDH",
+      "title": "mr",
+      "given_name": "Tony",
+      "family_name": "Stark",
+      "born_on": "1980-07-24",
+      "gender": "m",
+      "email": "tony@example.com",
+      "phone_number": "+442080160509"
+     }
+    ],
+    "confirm": true,
+    "confirm_token": "1791876603.e4fb21d02c46348498b06454bdd4ff13",
+    "idempotency_key": "live-hold-acafd2eb"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "booked": true,
+    "order": {
+     "order_id": "ord_0000BBMVG1v89FTZ0ukGIZ",
+     "booking_reference": "G2FJDS",
+     "type": "hold",
+     "live_mode": false,
+     "total_amount": "225.12",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFsNcFHMWQTBX5b",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-13T09:17:00",
+         "arrives": "2026-11-13T12:15:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": true,
+       "penalty": "40.00",
+       "currency": "USD"
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "change",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": true
+    },
+    "note": "Test mode: paid from Duffel test balance; no real ticket or money."
+   }
+  },
+  {
+   "tool": "get_order",
+   "arguments": {
+    "order_id": "ord_0000BBMVG1v89FTZ0ukGIZ"
+   },
+   "isError": false,
+   "result": {
+    "mode": "duffel_test",
+    "order": {
+     "order_id": "ord_0000BBMVG1v89FTZ0ukGIZ",
+     "booking_reference": "G2FJDS",
+     "type": "hold",
+     "live_mode": false,
+     "total_amount": "225.12",
+     "currency": "USD",
+     "slices": [
+      {
+       "slice_id": "sli_0000BBMVFsNcFHMWQTBX5b",
+       "fare_brand": "Basic",
+       "segments": [
+        {
+         "from": "LHR",
+         "to": "JFK",
+         "departs": "2026-11-13T09:17:00",
+         "arrives": "2026-11-13T12:15:00",
+         "flight": "ZZ4029"
+        }
+       ]
+      }
+     ],
+     "conditions": {
+      "refund_before_departure": {
+       "allowed": false,
+       "penalty": null,
+       "currency": null
+      },
+      "change_before_departure": {
+       "allowed": true,
+       "penalty": "40.00",
+       "currency": "USD"
+      }
+     },
+     "available_actions": [
+      "cancel",
+      "change",
+      "update"
+     ],
+     "cancelled_at": null,
+     "awaiting_payment": true
+    }
+   }
+  }
+ ]
+}
